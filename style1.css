@@ -1,0 +1,50 @@
+#list{
+    margin-left: 90px;
+    position: relative
+}
+li{
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 250px;
+}
+#f{
+    position: absolute;
+	top: 4%;
+	left: 41%;
+}
+#se{
+    position: absolute;
+	top: 21%;
+	left: 41%;
+}
+#th{
+    position: absolute;
+	top: 38%;
+	left: 41%;
+}
+#fo{
+    position: absolute;
+	top: 54%;
+	left: 41%;
+}
+#fi{
+    position: absolute;
+	top: 71%;
+	left: 41%;
+}
+#si{
+    position: absolute;
+	top: 88%;
+	left: 41%;
+}
+.tag{
+    display: block;
+    width: 20%;
+    height: 10%;
+    margin-left: 30%;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin-right: 70px;
+}

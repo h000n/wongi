@@ -1,0 +1,50 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+#grid ol{
+    border: 2px gray solid;
+    width: 30%;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 30px;
+}
+h2{
+    margin-left: 330px;
+    margin-bottom: 0px;
+    font-size: 41px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 300px 200px 1fr;
+}
+#pa{
+    margin-left:10px;
+
+}
+#img1{
+    height: 200px;
+}
+@media(max-width:600px){
+    #pa{
+        display: none;
+    }
+}
+#egg{
+    display: none;
+}
+@media(min-width:3800px){
+    #egg{
+        display: block;
+    }
+}
+#egg2{
+    display: none;
+}
+@media(max-height:25px){
+    #egg2{
+        display: block;
+    }
+}
