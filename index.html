@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
     <title>wogu_wongi</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157806553-1"></script>
@@ -15,18 +14,22 @@
     gtag('config', 'UA-157806553-1');
     </script>
     <link rel="stylesheet" href="style.css">
+    <script src="1.js"></script>
 </head>
 <body>
     <p id="egg2"><strong>This is another egg</strong></p>
-    <h1><a href="index.html" >WONGI회</a></h1>
+    <h1><a href="index.html" title="main">WONGI회</a></h1>
+        <input class="button" id="change" type="button" value="night" onclick="
+                changer(this)
+        ">
     <h2>list</h2>
     <div id="grid">
         <img id="img1" src="sch.jpg" width="100%">
         <ol>
-            <li><a href="1.html">2018</a></li>
-            <li><a href="2.html" class="no n">2019</a></li>
-            <li><a href="3.html" class="no">2020</a></li>
-            <li><a href="4.html">useful</a></li>
+            <li><a href="1.html" title="list">2018</a></li>
+            <li><a href="2.html" title="list">2019</a></li>
+            <li><a href="3.html" title="list">2020</a></li>
+            <li><a href="4.html" title="page">useful</a></li>
         </ol>
         <div>
             <p id ="pa">abcdefggggggggggggg
@@ -38,18 +41,10 @@
             </p>
         </div>
         </div>
-    <div id="disqus_thread"></div>
+        <div id="disqus_thread"></div>
     <p>
         <script>
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
+        
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         s.src = 'https://won-3.disqus.com/embed.js';

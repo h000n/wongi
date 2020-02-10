@@ -47,4 +47,11 @@ h1{
     font-size: 35px;
     text-align: center;
     margin-right: 70px;
+    margin-top: 30px;
+}
+#back{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
 }

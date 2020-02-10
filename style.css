@@ -34,6 +34,8 @@ h2{
 }
 #egg{
     display: none;
+    color: white;
+
 }
 @media(min-width:3800px){
     #egg{
@@ -42,9 +44,25 @@ h2{
 }
 #egg2{
     display: none;
+    color: white;
 }
 @media(max-height:25px){
     #egg2{
         display: block;
     }
+}
+a{
+    text-decoration: none;
+    color: royalblue;
+}
+.button{
+    background-color: silver;
+    cursor: pointer;
+    font-size: 40px;
+}
+#change{
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 90%;
 }
